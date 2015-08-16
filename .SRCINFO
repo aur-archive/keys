@@ -1,0 +1,23 @@
+pkgbase = keys
+	pkgdesc = Password manager for linux systems with ncurses interface using strong GPG technology
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://sf.net/p/keys
+	arch = any
+	license = GPL
+	depends = rdesktop
+	depends = gnupg
+	depends = xdotool
+	depends = xsel
+	depends = dialog
+	depends = coreutils
+	depends = sed
+	depends = gawk
+	depends = grep
+	depends = sshpass
+	optdepends = firefox: default supported web browser used to open/logon to web sites with provided credentials
+	source = http://sourceforge.net/projects/keys/files/1.0.0/binaries/keys-1.0.0.tar.gz
+	md5sums = a4b272cd591f46c3bd5dd1b8eb55ad11
+
+pkgname = keys
+
